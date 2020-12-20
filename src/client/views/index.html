@@ -2,7 +2,7 @@
   <html>
     <head>
       <meta charset="UTF-8">
-      <title>Travel Planner</title>
+      <title>Planetarium</title>
       <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
 
     </head>
@@ -10,24 +10,15 @@
     <body>
       <div id = "app">
         <div id="headline" class ="holder headline">
-          Travel Planner
+          Planetarium
         </div>
 
 
         <div id="flex-container">
         <div id="function">
-          
-          <div class ="holder city">
-            <label for="city">Enter City here</label>
-            <input type="text" id="city" placeholder="Enter city here">
-
-            <label for="country-list">Choose your country from the list</label>
-            <select id="country-list" name="country">
-              <option value="" disabled selected>Select your option</option>
-            </select>
-          </div>
+        
           <div class ="holder">
-            <label for="trip-date">Choose Date of Arrival (Within 16 Days)</label>
+            <label for="trip-date">Select Date</label>
             <input id="trip-date" type="date">
 
             <button id="generate" type = "submit"> Save Entry </button>
@@ -44,12 +35,12 @@
         <div id='loader'></div>
         <div id="fig-container">
         <figure id="image-holder">
-          <img id="city-image" src="https://cdn.pixabay.com/photo/2016/01/19/15/48/luggage-1149289__480.jpg" alt="travel suitcase">
+          <img id="city-image" src="https://cdn.pixabay.com/photo/2012/11/28/10/34/rocket-launch-67643__480.jpg" alt="nasa">
         
           <figcaption>
 
 
-            <div class = "title">Travel Details</div>
+            <div class = "title">Info</div>
             
               <div id = "entry-holder">
                 <div id="name"></div>

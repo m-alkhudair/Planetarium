@@ -51,9 +51,7 @@ app.get('/dataArray', (req, res)=>{
 })
 
 const cred = {
-    weatherBitKey: process.env.WEATHER_BIT_API_KEY,  
-    GeonNameUsername: process.env.GEO_NAME_USERNAME,
-    pixabayKey: process.env.PIXABAY_API_KEY    
+    nasaApiKey: process.env.NASA_API_KEY 
 };
 
 app.get('/cred', (req, res)=>{
